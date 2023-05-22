@@ -20,9 +20,10 @@ jobs:
 
       - name: Run tests
         run: npm test
-  deoply:
-    runs-on: ubuntu-latest
-    steps:
+  deoply: 
+   needs: test 
+   runs-on: ubuntu-latest
+   steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
