@@ -7,7 +7,7 @@ on:
       - closed
    branches:
       - dev
-    push:
+  push:
     branches:
       - master 
 jobs:
