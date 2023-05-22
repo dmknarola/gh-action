@@ -5,6 +5,10 @@ on:
       - opened
       - edited
       - closed
+    branches:
+      - dev
+
+  
     
 jobs:
   test:
