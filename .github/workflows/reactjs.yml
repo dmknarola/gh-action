@@ -2,9 +2,7 @@ name: Git action react js
 on:
  push:
     branches:
-      - master  
-	
-    
+      - master    
 jobs:
   test:
     runs-on: ubuntu-latest
