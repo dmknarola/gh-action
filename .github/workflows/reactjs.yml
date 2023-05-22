@@ -1,10 +1,13 @@
 name: Git action react js
 on:
   pull_request:
+  
     type:
       - opened
       - edited
-      - review_request_removed	
+      - review_request_removed
+  workflow_dispatch:      	
+    
 jobs:
   test:
     runs-on: ubuntu-latest
