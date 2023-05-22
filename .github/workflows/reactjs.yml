@@ -5,7 +5,6 @@ on:
     type:
       - opened
       - edited
-      - review_request_removed 
       - closed
     
 jobs:
