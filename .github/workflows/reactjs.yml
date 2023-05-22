@@ -1,8 +1,7 @@
 name: Git action react js
 on:
   pull_request:
-  
-    type:
+    types:
       - opened
       - edited
       - review_request_removed     	
