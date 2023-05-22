@@ -4,7 +4,7 @@ on:
     types:
       - opened
       - edited
-      - review_request_removed     	
+      - closed     	
     
 jobs:
   test:
