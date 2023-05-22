@@ -1,12 +1,13 @@
 name: Git action react js
-   pull_request:
+on:
+ pull_request:
    types:
       - opened
       - edited
       - closed
    branches:
       - dev
-    push:
+ push:
     branches:
       - master  
 jobs:
