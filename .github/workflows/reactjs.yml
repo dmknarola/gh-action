@@ -1,8 +1,10 @@
 name: Git action react js
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    type:
+      - opened
+      - edited
+      - review_request_removed	
 jobs:
   test:
     runs-on: ubuntu-latest
